@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Due_months_testing]">
+  <test thread-count="5" name="regression testing(failed)">
+    <parameter name="month1" value="Jan"/>
+    <parameter name="month2" value="Feb"/>
+    <parameter name="month3" value="Mar"/>
+    <parameter name="month4" value="Apr"/>
+    <parameter name="month12" value="Dec"/>
+    <parameter name="month5" value="May"/>
+    <parameter name="month11" value="Nov"/>
+    <parameter name="month6" value="Jun"/>
+    <parameter name="month7" value="Jul"/>
+    <parameter name="month8" value="Aug"/>
+    <parameter name="month9" value="Sep"/>
+    <parameter name="month10" value="Oct"/>
+    <classes>
+      <class name="testing.Due_months_testing">
+        <methods>
+          <include name="due_months_testing"/>
+        </methods>
+      </class> <!-- testing.Due_months_testing -->
+    </classes>
+  </test> <!-- regression testing(failed) -->
+</suite> <!-- Failed suite [Due_months_testing] -->
